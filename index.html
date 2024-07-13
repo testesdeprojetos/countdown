@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="relogio">
+
+        <h1>Countdown Timer</h1>
+
+        <table>
+            <td>
+                <input type="text" id="minDec" pattern="[0-6]{1}" maxlength="1">
+            </td>
+            <td>
+                <input type="text" id="minUni" pattern="[0-9]{1}" maxlength="1">
+            </td>
+            <td>
+                <h2>:</h2>
+            </td>
+            <td>
+                <input type="text" id="segDec" pattern="[0-5]{1}" maxlength="1">
+            </td>
+            <td>
+                <input type="text" id="segUni" pattern="[0-9]{1}" maxlength="1">
+            </td>
+        </table>
+    </div>
+    <br>
+    <div id="botoesDeAcao">
+        <button onclick="resetar()">Resetar</button>
+        
+        <button onclick="pausar()" id="pauseBtn" disabled="true">Pausar</button>
+        
+        <button onclick="comecar()" id="comecarBtn" disabled="false">Começar</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

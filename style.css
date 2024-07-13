@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Lucida Sans';
+    font-size: xx-large;
+}
+
+input[type = "text"]{
+    width: 50%;
+    height: auto;
+    scale: 100%;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+table{
+    height: auto;
+    width: auto;
+    scale: 100%;
+    margin: auto;
+}
+
+td{
+    padding: 2%;
+    scale: 150%;
+    width: 100px;
+}
+
+button{
+    height: 50%;
+    width: 10%;
+    font-size: xx-large;
+}
+
+div{
+    align-content: center;
+    text-align: center;
+    padding: 100px;
+}
+
+#botoesDeAcao{
+    background-color: burlywood;
+}
+
+#relogio{
+    background-color: beige;
+}
